@@ -5,7 +5,7 @@ import millify from 'millify'
 import { Col, Row, Typography, Select } from 'antd'
 import { MoneyCollectOutlined, DollarCircleOutlined, FundOutlined, CheckOutlined, ExclamationCircleOutlined, NumberOutlined, ThunderboltOutlined, StopOutlined, TrophyOutlined } from '@ant-design/icons'
 import { useGetCryptoDetailsQuery } from '../services/cryptoApi'
-import LineChart from './LineChart'
+//import LineChart from './LineChart'
 
 
 const { Title, Text } = Typography
@@ -67,7 +67,7 @@ function CryptoDetails() {
         </Select>
 
         {/* linechart */}
-        <LineChart />
+        
         
         <Col className='stats-container'>
           <Col className='coin-value-statistics'>
